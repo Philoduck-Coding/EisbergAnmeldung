@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eisige Anmeldung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="iceberg-container">
+        <div class="iceberg">
+            <div class="iceberg-top"></div>
+            <div class="iceberg-middle">
+                <div class="face">
+                    <div class="eyes">
+                        <div class="eye left-eye"></div>
+                        <div class="eye right-eye"></div>
+                    </div>
+                    <div class="mouth"></div>
+                    <div class="hands">
+                        <div class="hand left-hand"></div>
+                        <div class="hand right-hand"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="iceberg-bottom"></div>
+            <div class="water"></div>
+        </div>
+    </div>
+
+    <div class="login-container">
+        <h1>Eisberg Anmeldung</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" required placeholder="email@domain.com">
+            </div>
+            <div class="input-group">
+                <label for="password">Passwort</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" required placeholder="urpasswort">
+                    <button type="button" class="toggle-password">👁️</button>
+                </div>
+            </div>
+            <button type="submit" class="login-btn">Anmelden</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
